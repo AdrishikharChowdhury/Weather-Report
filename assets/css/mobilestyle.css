@@ -128,11 +128,15 @@ body{
         font-size: 1rem;
         padding-left: 0rem;
     }
+
+    #submit{
+        font-size: 1.2rem;
+    }
 }
 
 
 /* Extra Small Devices (≤ 400px) */
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     body{
         gap: 0.5rem;
     }
@@ -146,12 +150,12 @@ body{
     }
 
     .weather-icon{
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     }
 
     .subheading{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     #weather-menu{
@@ -169,30 +173,34 @@ body{
     }
 
     #icon{
-        width: 7rem;
-        height: 7rem;
+        width: 6rem;
+        height: 6rem;
     }
 
     #temp{
-    font-size: 2rem;
+    font-size: 1.6rem;
     }
 
     #location,#state{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .fore-icon{
-        width: 4rem;
-        height: 4rem;
+        width: 3rem;
+        height: 3rem;
     }
 
     .fore-temp,.fore-time,.fore-date{
-    font-size: 1.2rem;
+    font-size: 1rem;
     }
 
     input::placeholder{
         font-size: 1rem;
         padding-left: 0rem;
+    }
+
+    #submit{
+        font-size: 1rem;
     }
 }
 

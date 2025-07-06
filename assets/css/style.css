@@ -110,6 +110,7 @@ input::placeholder{
 
 #submit:active{
     transform: translateY(0.5rem);
+    width: 40%;
 }
 
 #weather-info,#current-info,#forecast-info{

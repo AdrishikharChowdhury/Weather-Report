@@ -31,6 +31,8 @@ submit.addEventListener("click",async (e) => {
         forecastWeather(data2);
         
     } catch (error) {
+        currentInfo.innerHTML=""
+        forecastInfo.innerHTML=""
         weatherInfo.style.backgroundImage=`url(./assets/images/20064239_6199763.svg)`;
         weatherInfo.style.backgroundPosition= "center";
         weatherInfo.style.backgroundRepeat= "no-repeat";
