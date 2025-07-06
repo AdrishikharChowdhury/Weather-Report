@@ -91,6 +91,6 @@ const tempConvert=(number)=>{
 
 if (window.location.hostname === "adrishikharchowdhury.github.io") {
     const baseTag = document.createElement("base");
-    baseTag.href = "/Weather Report/";
+    baseTag.href = "/Weather-Report/";
     document.head.appendChild(baseTag);
   }
