@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <script src="./assets/js/config.js" defer></script>
+    <script src="./assets/js/script.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mobilestyle.css">
+</head>
+<body>
+    <div class="heading">
+        <div class="weather-icon"></div>
+        <p>Weather Report</p>
+    </div>
+    <div id="weather-menu">
+        <label for="city">
+            <p class="subheading">Enter the name of the city:</p>
+        </label>
+        <input type="text" name="city" id="city" placeholder="Enter your city name...">
+        <button id="submit">Submit</button>
+        <div id="weather-info">
+            <div id="current-info">
+            </div>
+            <div id="forecast-info">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
