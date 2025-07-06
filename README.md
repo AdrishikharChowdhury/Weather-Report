@@ -14,9 +14,7 @@ A responsive web app to check real-time weather and 5-forecast for any city worl
 
 
 ## Demo
-
-Try it live:
-*Add your GitHub Pages or deployment link here*
+### [Weather Report](https://weathereport1.netlify.app/)
 
 ## How It Works
 
